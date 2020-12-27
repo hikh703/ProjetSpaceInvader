@@ -1,5 +1,7 @@
 #include "global.h"
 
+/*test*/
+
 /* une balle va avoir 1 ou 0 point de vie, si elle entre en collision avec le joueur ou un enemmi son total de vie passe à 0 et elle n'est plus dessinée ! */
 void draw_bullet(entity* bullets){
   entity* cursor = bullets;
